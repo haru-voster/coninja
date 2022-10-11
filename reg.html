@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="reg.css" type="text/css">
+        <center> <body>
+            
+            <style>
+                body,html{
+                    column-rule-color: aquamarine;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    height: 50%;
+                    margin: 0ch;
+                }
+            </style>
+        <h2>-WELCOME TO VOSTER TECHNOLOGIES-</h2>
+               <style>
+                h2
+                {
+                    color: rgb(55, 43, 226);
+                    align-self: center;
+                    font-family: Arial, Helvetica, sans-serif;
+                    background-image: none;
+                    font-weight: bold;
+                }
+                
+               </style>
+        
+        <button onclick="myFunction()"align-self="center">LOG IN </button>
+        <style>
+            button
+            {
+               background-color: yellow;
+               border: 50%,50%,50%;
+               text-align: center;
+               text-decoration-color: brown;
+            }
+        </style>
+        <P id="demo"></P>
+        <p id="msg"></p>
+        <script type="text/javascript">
+            function myFunction()
+            {
+                let text;
+                var userPreference;
+               
+                let person = prompt("please Enter your Full name:","");
+                if (person ==null||person =="");
+              {  {
+                    text ="Request cancelled succesfully.";
+                }
+        
+                {
+                    text ="\t\tWELCOME\t"+"\n"  + person +"\t" +"! You Have Successfully Reported For work";
+                }
+                if (confirm("Do you want to save changes?") == true) {
+			userPreference = "Data saved successfully!";
+		         } 
+        else {
+			userPreference = "Failed to capture data!";
+		     }
+             document.getElementById("demo").innerHTML=text;
+                document.getElementById("msg").innerHTML = userPreference; 
+        
+            }
+        }
+        </script>
+        <button class="buttonload" id="loading">
+            <i class="fa fa-refresh fa-spin"></i>Refresh
+        </button>
+        <style>
+            text
+            {
+                column-rule-color: black
+                font: xx-large;
+            }
+            .prompt
+            {
+                text-shadow: 50;
+                padding: left;
+                background-color: blueviolet;
+            }
+
+        </style>
+        
+         </body>
+        </center>
+</html>

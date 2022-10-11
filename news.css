@@ -1,0 +1,23 @@
+h1{
+    color: red;
+    text-align: center;
+}
+body
+{
+background-color: rgb(109, 129, 74);
+color: rgb(8, 8, 8);
+padding: 50%,50%,50%,50%;
+scroll-padding: 100%,400%;
+}
+button 
+{
+background-color: rgb(100, 5, 92);
+text-decoration:red;
+color: rgb(70, 75, 9);
+text-align: center;
+border: 100%;
+}
+div{border-style: 100%;}
+.tablink:hover{
+    background-color: black;
+  }

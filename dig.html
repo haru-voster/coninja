@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="dig.css" type="text/css">
+         <body>
+            <style>
+                body,html{
+                    column-rule-color: aquamarine;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    height: 50%;
+                    margin: 0ch;
+                }
+            </style>
+        <h2>-WELCOME TO VOSTER TECHNOLOGIES-</h2>
+               <style>
+                h2
+                {
+                    color: rgb(55, 43, 226);
+                    align-self: center;
+                    font-family: Arial, Helvetica, sans-serif;
+                    background-image: none;
+                    font-weight: bold;
+                }
+                
+               </style>
+        
+        <button onclick="myFunction()">LOG IN please</button>
+        <style>
+            button
+            {
+                align-items: baseline;
+                border-radius: 100%;
+                color: yellow
+                counter-increment: initial;
+                size-adjust: 100%,100%;
+            }
+        </style>
+        <P id="demo"></P>
+        <script type="text/javascript">
+            function myFunction()
+            {
+                let text;
+                let person = prompt("please Enter your Full name:","ENTER YOUR FULL NAMES");
+                if (person ==null||person =="");
+                {
+                    text ="Request cancelled succesfully.";
+                }
+        
+                {
+                    text ="WELCOME"  + person + "! You Have Successfully Reported For work";
+
+                }
+                document.getElementById("demo").innerHTML = text;
+        
+            }
+            
+        </script>
+        <style>
+            text
+            {
+                column-rule-color: violet;
+                font: xx-large;
+            }
+        </style>
+        
+         </body>
+</html>

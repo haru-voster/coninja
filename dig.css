@@ -1,0 +1,12 @@
+body
+{
+  background-image:url("sailboat.jpg");
+  background-position: center;
+  background-size: cover;
+  background-color: brown;
+ }
+ p
+ {
+background-color: rgb(38, 138, 38);
+align-items: center;
+ }

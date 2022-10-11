@@ -1,0 +1,35 @@
+.{
+     margin: 0;
+     padding: 0;
+font-family: 'poppins', sans-serif;
+}
+html,body
+{
+display: grid;
+ height: 100%;
+place-items:center;
+background-color: rgb(45, 80, 110);
+ 
+
+}
+.wrapper.
+{ 
+    background: red;
+    border: 100px;
+    height: 100px;
+    width: 360px; 
+
+}
+.wrapper.display
+{
+     background-color: blue;
+     position: absolute;
+     top:50%;
+     left:50%;
+     transform: translate(-50%,50%);
+     background: rgb(199, 97, 97);
+}
+
+{
+
+}

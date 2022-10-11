@@ -1,0 +1,244 @@
+<!doctype html>
+<html>
+
+<link rel="stylesheet" href="bg1.css" type="text/css">
+
+<body>
+    <title> VOSTER</title>
+    <center>
+        <h1><b>VOSTER TECHNOLOGIES</h1><p></p>
+</b><a href=" images.jpg/maincompart.jpg " style="center " action="TECHNOLOGIES "><i>welcome to my personal portifolio. Feel free to look around my website</i></a>
+
+            <br>
+
+            <p>
+                <marquee><p id="demo"></p><p id="demo"></p>
+                    <p id="demo1"></p>
+      <script>
+                 /*declaration of 2 variables to output day and exact time*/
+        var t =new Date();
+        document.getElementById("demo1").innerHTML=t.toDateString();
+        </script>
+                     <h2> Welcome to voster technologies where we nature our talents and ensure you are 
+                        in the right atmosphere for all round growth toward embrassing "Digital World "</h2>
+                    <p><i>For guidance follow me @vosterharuun/Whatsappp the word "vo_ster ":+254708466793</i></p>
+                </marquee>
+                </h2>
+            </P>
+            <h3> Registered, click
+                <a href="reg.html" onclick="alert( 'Hi WELCOME .Please proceed and login your details...') ">
+                    <div alert="blue " background-position="center "></div>
+<style>
+    a{
+        
+
+    }
+    
+</style>
+                    Log In</a>
+            </h3>
+            <p> <b> 
+		 <br>
+		CORE VALUES</p></b>
+                <ol>Discipline</ol>
+                <ol>Respect</ol>
+                <ol>Hardwork</ol>
+                <p>SIGN UP</p>
+                <div sign up="#fff " red></div>
+                <b></b>
+                <meta name="viewport " content="width=device-width, initial-scale=1 ">
+                </head>
+                <p></p>
+                <button class="open-form" onclick="openForm()">SIGN UP HERE</button>
+                <div class="pop-up" id="myForm">
+                <form action="/action_page.php" class ="form-container" onsubmit="myFunction()"> 
+                    <h3>First Applicant Register </h3>
+                    <label for="name "><b>Name:</b>
+                </label>
+                            <input type="name " class="form-group " id="name " placeholder="Enter your name ">
+                             <p></p>
+                       
+                            
+                            <label for="id no. ">Id No:			
+		</label>
+                            <input type="id no " class="form " id="Id No. " placeholder="Enter a valid id ">
+                        
+                        <p></p>
+                        
+                            <label for="email ">Email:
+		</label>
+                            <input type="email " class="form " id="Email " placeholder="Enter your email ">
+                        
+                        <p></p>
+                            <label for="password ">Password:
+		</label>
+                            <input type="password"class="form"id="pwd"name="pwd"pattern="(?=*\(A-Z)(?.x[a-z])(?=.x![0-9]).{8,} " title="Must be atleast 8 characters and Must contain atleast 1 Lowercase,1 Uppercase and atleast 2 symbols " required>
+                            <div id ="message">
+                                
+                                <p id="letter"class="invalid"></p>
+                                <p id="capital"class="invalid"></p>
+                                <p id="number"class="invalid"></p>
+                                <p id="symbols"class="invalid"></p>
+                                <p id="length"class="invalid"> </b></p>
+                        <script>
+                            function openForm()//a function to open sign in form
+                                {/*the command opens a form*/
+                                    document.getElementById('myForm').style.display="block";
+                                }
+                                function closeForm()// closes sign up form.
+                                {
+                                    document.getElementById('myForm').style.display="none";
+                                }
+                        </script>
+                        <p></p>
+                            <label >
+                                <input type="checkbox"  checked" name="remember" >Remember Me
+                            </label>
+
+                        <style>
+                            *{
+                                box-sizing: border shadow;
+                                color: green;
+                                font-size-adjust: 200px;
+                            }
+                        </style>
+                        <p></p>
+                        <button type="btn" class ="btncancel" onclick="closeForm()">BACK</button>
+                            </div>
+                         </form>        
+           
+                            <script type="text/javascript">
+                                function myFunction()
+
+                                var input=document.getElementById("capital");
+                                var letter=document.getElementById("letter");
+                                var number=document.getElementById("number");
+                                var length=document.getElementById("length");
+                                var symbols=document.getElementById("symbol");
+                                /*when the user clicks on the pasword , show the message box*/
+                                myInput.onfocus = myfunction()
+                                {
+                                    document.getElementById("message").style.display="block";
+
+                                }
+                                myInput.onblur = function()
+                                {
+                                    document.getElementById("message").style.display="none";
+                                }
+                        myInput.onkeyup= myfunction()
+                        {
+                            //validating lowercase
+                            var lowerCaseLetters=/[a-z]/g;
+                            if(myInput.value.match(lowerCaseLetters))
+                            {
+                                letter.classList.remove("invalid");
+                                letter.classList.add("valid");
+                            }
+                            else
+                            {
+                                letter.classList.remove("valid");
+                                letter.classList.add('invalid');
+                            }
+                            //uppercase
+                            var capital=/[A-Z]/g;
+                            if(input.value.match(capital))
+                            {
+                                capital.classList.remove("valid");
+                                capital..classList.add("invalid");
+                            }
+                            else
+                            {
+                                capital.classList.remove("invalid");
+                                capital.classList.add("valid");
+                            }
+                        
+                            var numbers = /[0-9]/g;
+                            if(myInput.value.match(numbers))
+                            {
+                                number.classList.remove("invalid");
+                                number.classList.add("valid");
+                            }
+                            else
+                            {
+                                number.classList.remove("valid");
+                                number.classList.add("invalid");
+                            }
+                            //length validation
+                            if(myInput.value.length>=6)
+                            {
+                                length.classList.remove("invalid");
+                                length.classList.add("valid");
+                            }
+                            else
+                            {
+                                length.classList.remove("valid");
+                                length.classList.add("invalid");
+                            }
+                            //symbol variation
+
+                            var symbols = /[?,.,!,@,#,$,%,]/g;
+                            if(myInput.value.match(symbols))
+                            {
+                                symbol.classList.remove("invalid");
+                                symbol.classList.add("valid");
+                            }
+                            else
+                            {
+                                symbol.classList.remove("valid");
+                                symbol.classList.add("invalid");
+                            }
+                        }
+                    
+                       
+                                
+                            </script>
+<p></p>
+                            <button class="radio" onclick="alert('Are sure you want to submit these data?')" onclick="closeForm()">SUBMIT</button></div>
+                            <p></p>
+                        <a href="images.jpg/house_arch.jpg">click here</a>
+                        <hr>
+                        <small>copyright 2022 &copy;haroun voster</small>
+                    </form>
+                    <div class="popup">
+
+                        <img src="images.jpg/voster.jpg" box-align="left"></div>
+
+                    <style>
+                        .btn {
+                            border: yellow;
+                            border-radius: 50%;
+                            align-content: center;
+                            content-visibility: visible;
+                            padding: 50px, 50px, 50px, 50px;
+                            box-align: center;
+                        }
+                        .alert
+                        {
+                            color: rgb(42, 8, 143);
+                            background-origin: padding-box;
+                            border-radius: 50%,50%,50%,50%;
+                            font-style: italic;
+                        }
+                        .popup {
+                            border: yellow;
+                            border-radius: 40px;
+                            background-color: rgb(17, 10, 117);
+                            position: absolute;
+                            top: 10%;
+                            display: flex;
+                            align-content: flex-end;
+                            left: 0%;
+                            transform: translate(50%, 50%)
+                        }
+                        
+                        .popup img {
+                            width: 100px;
+                            margin top: 50%;
+                            border-radius: 50%;
+                            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+                        }
+                    </style>
+                </form>
+                </center>
+</body>
+</html>
